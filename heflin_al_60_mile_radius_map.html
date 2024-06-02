@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_988b2c47827e63685230e1ddbc637f07 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_988b2c47827e63685230e1ddbc637f07" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_988b2c47827e63685230e1ddbc637f07 = L.map(
+                "map_988b2c47827e63685230e1ddbc637f07",
+                {
+                    center: [33.6487, -85.5877],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_13c96ae0fbbc19650760dd3d6b2f11b9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+            var circle_286b7627d3b6f29d426157b52f1ea51a = L.circle(
+                [33.6487, -85.5877],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 96560.4, "stroke": true, "weight": 3}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+            var marker_9622e418a095441760871cff8af108f3 = L.marker(
+                [33.6598, -85.8316],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_8806c9fb78166820f664a6fba485b16c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_692c7a68bf7f89ac5226abc3961db91c = $(`<div id="html_692c7a68bf7f89ac5226abc3961db91c" style="width: 100.0%; height: 100.0%;">Anniston, AL</div>`)[0];
+            popup_8806c9fb78166820f664a6fba485b16c.setContent(html_692c7a68bf7f89ac5226abc3961db91c);
+        
+
+        marker_9622e418a095441760871cff8af108f3.bindPopup(popup_8806c9fb78166820f664a6fba485b16c)
+        ;
+
+        
+    
+    
+            var marker_336d58f0889766554dabec241412c4f8 = L.marker(
+                [33.6143, -85.8342],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_9c1cd512cb0cca514d4322b480508b8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a21850f472ca040bf4f6c31bcce2f969 = $(`<div id="html_a21850f472ca040bf4f6c31bcce2f969" style="width: 100.0%; height: 100.0%;">Oxford, AL</div>`)[0];
+            popup_9c1cd512cb0cca514d4322b480508b8c.setContent(html_a21850f472ca040bf4f6c31bcce2f969);
+        
+
+        marker_336d58f0889766554dabec241412c4f8.bindPopup(popup_9c1cd512cb0cca514d4322b480508b8c)
+        ;
+
+        
+    
+    
+            var marker_03306a013db2949c58d9f1f538cb9b57 = L.marker(
+                [33.4359, -86.1058],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_3d9609b03a761314bb9754480e58ae24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e56f049a87a525a5829ac95d09fa042 = $(`<div id="html_0e56f049a87a525a5829ac95d09fa042" style="width: 100.0%; height: 100.0%;">Talladega, AL</div>`)[0];
+            popup_3d9609b03a761314bb9754480e58ae24.setContent(html_0e56f049a87a525a5829ac95d09fa042);
+        
+
+        marker_03306a013db2949c58d9f1f538cb9b57.bindPopup(popup_3d9609b03a761314bb9754480e58ae24)
+        ;
+
+        
+    
+    
+            var marker_1f5a76a3ee888363dd29f5674f569e86 = L.marker(
+                [33.8137, -85.7616],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_8a20c868bb1c97e61e215df2f5133848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4234ed1e68f1e322c61554de2bbb93c6 = $(`<div id="html_4234ed1e68f1e322c61554de2bbb93c6" style="width: 100.0%; height: 100.0%;">Jacksonville, AL</div>`)[0];
+            popup_8a20c868bb1c97e61e215df2f5133848.setContent(html_4234ed1e68f1e322c61554de2bbb93c6);
+        
+
+        marker_1f5a76a3ee888363dd29f5674f569e86.bindPopup(popup_8a20c868bb1c97e61e215df2f5133848)
+        ;
+
+        
+    
+    
+            var marker_d4ec5a1f41d388fed0dd5f2b3cd489fd = L.marker(
+                [33.9243, -85.6116],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_bbd78e4c1f513943357362c23de983eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6901ea0f2ad6131ae998b0723f8aab6 = $(`<div id="html_f6901ea0f2ad6131ae998b0723f8aab6" style="width: 100.0%; height: 100.0%;">Piedmont, AL</div>`)[0];
+            popup_bbd78e4c1f513943357362c23de983eb.setContent(html_f6901ea0f2ad6131ae998b0723f8aab6);
+        
+
+        marker_d4ec5a1f41d388fed0dd5f2b3cd489fd.bindPopup(popup_bbd78e4c1f513943357362c23de983eb)
+        ;
+
+        
+    
+    
+            var marker_723d6cd91b97db6cd775f0766fc69a0d = L.marker(
+                [33.5943, -86.118],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_73546164670321e608f4040a08fb9902 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1048e839ccb2d8c9757967edf63b9591 = $(`<div id="html_1048e839ccb2d8c9757967edf63b9591" style="width: 100.0%; height: 100.0%;">Lincoln, AL</div>`)[0];
+            popup_73546164670321e608f4040a08fb9902.setContent(html_1048e839ccb2d8c9757967edf63b9591);
+        
+
+        marker_723d6cd91b97db6cd775f0766fc69a0d.bindPopup(popup_73546164670321e608f4040a08fb9902)
+        ;
+
+        
+    
+    
+            var marker_212c67ef8606f641da155c1ad7891707 = L.marker(
+                [34.0143, -86.0066],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_337dbef8ae4f46f4e2018adeb7c04d5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6538b40151f3677dbe1685634c08cf40 = $(`<div id="html_6538b40151f3677dbe1685634c08cf40" style="width: 100.0%; height: 100.0%;">Gadsden, AL</div>`)[0];
+            popup_337dbef8ae4f46f4e2018adeb7c04d5e.setContent(html_6538b40151f3677dbe1685634c08cf40);
+        
+
+        marker_212c67ef8606f641da155c1ad7891707.bindPopup(popup_337dbef8ae4f46f4e2018adeb7c04d5e)
+        ;
+
+        
+    
+    
+            var marker_2c1981f48c53412b518db46551519989 = L.marker(
+                [33.5862, -86.2861],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_259b531c05379432570e21276d451bb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bda98660f816cdbf5eea170cfab08a0c = $(`<div id="html_bda98660f816cdbf5eea170cfab08a0c" style="width: 100.0%; height: 100.0%;">Pell City, AL</div>`)[0];
+            popup_259b531c05379432570e21276d451bb3.setContent(html_bda98660f816cdbf5eea170cfab08a0c);
+        
+
+        marker_2c1981f48c53412b518db46551519989.bindPopup(popup_259b531c05379432570e21276d451bb3)
+        ;
+
+        
+    
+    
+            var marker_a471eb743fa61258d7f5ea270c2e087b = L.marker(
+                [33.5801, -85.0766],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_6b4fd958abe1d5a8bdc756d1ef23364c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28498d7c69c3f0385265ea30827cc886 = $(`<div id="html_28498d7c69c3f0385265ea30827cc886" style="width: 100.0%; height: 100.0%;">Carrollton, GA</div>`)[0];
+            popup_6b4fd958abe1d5a8bdc756d1ef23364c.setContent(html_28498d7c69c3f0385265ea30827cc886);
+        
+
+        marker_a471eb743fa61258d7f5ea270c2e087b.bindPopup(popup_6b4fd958abe1d5a8bdc756d1ef23364c)
+        ;
+
+        
+    
+    
+            var marker_bd35870c6105d572d24a523d0c884fa6 = L.marker(
+                [33.7326, -84.9194],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_8273a0e938f8bb996d78f34428db4b75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b45cd465f81abc01f1693b86a571d4ca = $(`<div id="html_b45cd465f81abc01f1693b86a571d4ca" style="width: 100.0%; height: 100.0%;">Villa Rica, GA</div>`)[0];
+            popup_8273a0e938f8bb996d78f34428db4b75.setContent(html_b45cd465f81abc01f1693b86a571d4ca);
+        
+
+        marker_bd35870c6105d572d24a523d0c884fa6.bindPopup(popup_8273a0e938f8bb996d78f34428db4b75)
+        ;
+
+        
+    
+    
+            var marker_282206e83cf9351593b785a8a789e40f = L.marker(
+                [34.0118, -85.2566],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_d47ce0923a1cbc5bce38808c337342c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce83ef3da9a2e829fe275f079c67205b = $(`<div id="html_ce83ef3da9a2e829fe275f079c67205b" style="width: 100.0%; height: 100.0%;">Cedartown, GA</div>`)[0];
+            popup_d47ce0923a1cbc5bce38808c337342c9.setContent(html_ce83ef3da9a2e829fe275f079c67205b);
+        
+
+        marker_282206e83cf9351593b785a8a789e40f.bindPopup(popup_d47ce0923a1cbc5bce38808c337342c9)
+        ;
+
+        
+    
+    
+            var marker_976cc0fae06ca304294034add42b20c3 = L.marker(
+                [33.7212, -85.1452],
+                {}
+            ).addTo(map_988b2c47827e63685230e1ddbc637f07);
+        
+    
+        var popup_3bfe0f36defa4367af34667954d7b6b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27735aeae612c4ac0098297c8576af71 = $(`<div id="html_27735aeae612c4ac0098297c8576af71" style="width: 100.0%; height: 100.0%;">Bremen, GA</div>`)[0];
+            popup_3bfe0f36defa4367af34667954d7b6b3.setContent(html_27735aeae612c4ac0098297c8576af71);
+        
+
+        marker_976cc0fae06ca304294034add42b20c3.bindPopup(popup_3bfe0f36defa4367af34667954d7b6b3)
+        ;
+
+        
+    
+</script>
+</html>
